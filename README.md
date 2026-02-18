@@ -1,8 +1,10 @@
-#land-checker-app<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>AI Land Checker</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Land Checker</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
