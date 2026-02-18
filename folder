@@ -1,0 +1,4 @@
+land-checker-app/
+├─ index.html       # Main HTML file
+├─ style.css        # Stylesheet for UI
+└─ script.js        # JS logic for land checker, voice, image
