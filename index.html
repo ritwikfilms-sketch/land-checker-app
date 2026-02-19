@@ -1,3 +1,34 @@
-index.html
-style.css
-script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate AI Land Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🌍 Ultimate AI Land Checker</h1>
+<div class="box">
+  <h2>🏡 Land Price Analyzer</h2>
+  <input type="number" id="size" placeholder="Land Size (sqft)">
+  <input type="number" id="price" placeholder="Expected Price">
+  <button onclick="checkLand()">Analyze</button>
+  <div id="result"></div>
+</div>
+<hr>
+<div class="box">
+  <h2>🎤 Voice Assistant</h2>
+  <textarea id="voiceText" placeholder="Type text for voice..."></textarea>
+  <button onclick="speak('male')">Speak Male</button>
+  <button onclick="speak('female')">Speak Female</button>
+</div>
+<hr>
+<div class="box">
+  <h2>🖼 AI Image Generator</h2>
+  <input type="text" id="imgPrompt" placeholder="Enter image prompt">
+  <button onclick="generateImage()">Generate Image</button>
+  <div id="imageResult"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
