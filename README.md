@@ -36,3 +36,14 @@ function speak(gender) {
 ---
 
 ## Folder Structure
+---
+
+## Setup Instructions
+
+1.⁠ ⁠Clone or download this repo  
+2.⁠ ⁠Open ⁠ index.html ⁠ for frontend features  
+3.⁠ ⁠Optional: Run backend
+```bash
+cd backend
+npm install
+node server.js
