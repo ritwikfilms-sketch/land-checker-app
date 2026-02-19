@@ -1,0 +1,13 @@
+Ultimate-AI-Land-Checker/
+├─ index.html                  # Full HTML code
+├─ style.css                   # Full CSS code
+├─ script.js                   # Full JS logic
+├─ README.md                   # Project description
+├─ LICENSE                     # MIT License text
+├─ CODE_OF_CONDUCT.md          # Contributor Covenant code
+└─ backend/                    # Optional Node.js backend
+    ├─ server.js               # Full backend JS code
+    └─ package.json            # Backend dependencies
+
+.github/workflows/
+└─ deploy-full.yml             # GitHub Actions workflow
